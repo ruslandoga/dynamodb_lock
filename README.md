@@ -1,3 +1,7 @@
+It was a bad idea. Locks != leader election :)
+
+---
+
 Idea:
 - use (free-tier) AWS DynamoDB for leader election in an Elixir cluster
 - leader accepts writes to local SQLite database (or some other resource, like Iceberg or Delta Lake log)
